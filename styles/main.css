@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+*{
+  box-sizing: border-box;
+  /*outline: 1px solid rgba(0, 0 ,255, .1);*/
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #1E8BC3;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+input{
+  background-color: #FFFFFF;
+  font-weight: bold;
+}
+
+input > .pic{
+  background-color: #FFFFFF;
+  font-weight: bold;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #FBDA31;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+section {
+  max-width: 760px;
+  background-color: #ffffff;
+  padding: 2rem 0;
+}
+
+.signup-form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  /*line-height: 2;*/
+}
+
+.headline{
+  width: 100%;
+  text-align: center;
+}
+
+.options-parent{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 15%;
+}
+
+.option-btns{
+  width: 22%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-right: 70px;
+}
+
+.name{
+  width: 40%;
+  margin-left: 20px;
+  line-height: 2;
+}
+
+.email-addr{
+  width: 40%;
+  margin-left: 20px;
+  line-height: 2;
+}
+
+.pw{
+  width: 40%;
+  margin-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 2;
+}
+
+.conf-pw{
+  width: 40%;
+  margin-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 2;
+}
+
+.pic{
+  width: 40%;
+  margin-left: 20px;
+  line-height: 2;
+}
+
+.submit{
+  width: 40%;
+  margin-left: 20px;
+  padding-top: 10px;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  /*border-radius: 5px;*/
+}
+
+.input-item{
+  width: 90%;
+}
+
+.button{
+
+  /*border-radius: 5px;*/
+}
+html{
+  background-color: #000;
+}
+.submit-btn{
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  font-size: 16px;
+
+}
+
+label{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

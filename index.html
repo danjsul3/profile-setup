@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Profile Setup</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="outer">
+    <section>
+      <form class="signup-form" action="signup.php">
+
+        <div class="headline">
+          <h1>Sign up</h1>
+        </div>
+
+        <div class="options-parent">
+          <div class="option-btns" class="option-admin">
+            <input class="option-btn" type="radio" name="acct-type" id="admin" value="admin" class="input-item" />
+
+            <label for="admin">admin</label>
+          </div>
+          <div class="option-btns" class="option-personal">
+            <input class="option-btn" type="radio" name="acct-type" id="personal" value="personal" class="input-item"/>
+            <label for="personal">personal</label>
+          </div>
+          <div class="option-btns" class="option-guest">
+            <input class="option-btn" type="radio" name="acct-type" id="guest" value="guest" class="input-item" />
+
+            <label for="guest">guest</label>
+          </div>
+        </div>
+        <div class="name">
+          <label for="namebox">name</label>
+          <input type="text" name="namebox" id="namebox" class="input-item" />
+        </div>
+        <div class="email-addr">
+          <label for="email">email</label>
+          <input type="email" name="email" id="email" class="input-item" />
+        </div>
+
+        <div class="pw">
+          <label for="pass">password</label>
+          <input type="password" name="pass" id="pass" class="input-item"  />
+        </div>
+
+        <div class="conf-pw">
+          <label for="conf-pass">confirm password</label>
+          <input type="password" name="conf-pass" id="conf-pass" class="input-item"  />
+        </div>
+
+        <div class="pic">
+          <label for="pic">profile picture</label>
+          <input type="file" name="pic" id="pic" class="input-item" class="button"/>
+        </div>
+
+        <div class="submit">
+          <input type="button" value="sign up" class="input-item" class="submit-btn" class="button" />
+        </div>
+
+
+      </form>
+    </section>
+  </div>
+</body>
+</html>
